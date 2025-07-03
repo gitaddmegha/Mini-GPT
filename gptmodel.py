@@ -18,7 +18,7 @@ weight_decay = 1e-2
 
 torch.manual_seed(1337)
 
-with open('tiny_tharoor.txt', 'r', encoding='utf-8') as f:
+with open('tiny_tharoor.txt', 'r', encoding='utf-8') as f:   #add your input txt file here
     text = f.read()
 
 chars = sorted(list(set(text)))
